@@ -1,1 +1,1 @@
-web: bin/nginx -p . -c config/nginx.conf
+web: bin/nginx -p . -c config/nginx.conf.erb
