@@ -1,1 +1,1 @@
-# Load Balancer- Reverse proxy using nginx on heroku
+# Load Balancer- Reverse proxy using nginx on Heroku
