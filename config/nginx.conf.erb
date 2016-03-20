@@ -20,10 +20,10 @@ server {
        listen <%= ENV["PORT"] %>;	
        keepalive_timeout 5;
        location / {
-		proxy_pass http://moeriism.herokuapp.com;
+		proxy_pass http://moeri-blog.herokuapp.com;
 		}
        location /blog {
-		proxy_pass http://moeriism.herokuapp.com;
+		proxy_pass http://moeri-blog.herokuapp.com;
 		}
        location /navigation {
        		proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
