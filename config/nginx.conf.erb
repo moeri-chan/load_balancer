@@ -16,7 +16,6 @@ http {
      sendfile on;
      #Must read the body in 5 seconds.
      client_body_timeout 5;
-     include
 server {
        listen <%= ENV["PORT"] %>;	
        keepalive_timeout 5;
